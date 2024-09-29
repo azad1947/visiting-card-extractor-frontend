@@ -57,7 +57,7 @@ const DataPreview = ({ imagePreview, extractedData, onSave, onCancel }) => {
                                     onChange={handle_change}
                                     style={{ width: '200px' }}
                                 />
-                                {name_error && <b style={{ color: 'red' }}>{name_error}</b>}
+                                {name_error && <small style={{ display: 'block', color: 'red' }}>{name_error}</small>}
                             </td>
                         </tr>
                         <tr>
@@ -95,7 +95,7 @@ const DataPreview = ({ imagePreview, extractedData, onSave, onCancel }) => {
                                     onChange={handle_change}
                                     style={{ width: '200px' }}
                                 />
-                                {email_error && <b style={{ color: 'red' }}>{email_error}</b>}
+                                {email_error && <small style={{ display: 'block', color: 'red' }}>{email_error}</small>}
                             </td>
                         </tr>
                         <tr>
